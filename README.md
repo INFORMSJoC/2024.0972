@@ -8,9 +8,6 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [GNU GENERAL P
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
 [Pseudo-Polynomial Formulations for the Bin Packing Problem with Minimum Color Fragmentation](https://doi.org/10.1287/ijoc.2024.0972) by Mathijs Barkel, Maxence Delorme, Enrico Malaguti and Michele Monaci.
-The snapshot is based on 
-[this SHA](https://github.com/MathijsBarkel/BPPMCF2) 
-in the development repository. 
 
 **Important: This code is being developed on an on-going basis at 
 https://github.com/MathijsBarkel/BPPMCF2. Please go there if you would like to
@@ -89,7 +86,7 @@ Mehrani, S., Cardonha, C., and Bergman, D. (2022). Models and algorithms for the
 ## Ongoing Development
 
 This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/MathijsBarkel/BPPMCF2).
+[GitHub site](https://github.com/MathijsBarkel/BPPMCF2).
 
 ## Support
 
