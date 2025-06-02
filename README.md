@@ -58,6 +58,9 @@ All algorithms are coded in C++ and part of our methods require the commercial s
 | MFMB.h/cpp | code required for method MonoFlow-MultiBin |
 | helper_functions.h/cpp | code containing miscellaneous simple/supportive functions |
 
+The repository also contains the file CMakeLists.txt, which can be used to create a Makefile after running "cmake .. -DCMAKE_BUILD_TYPE=Release; make -j".
+When using a different version of Gurobi, make sure to update the relevant lines in CMakeLists.txt.
+
 ## Details of instances
 Moreover, "InstancesBPPMCF.zip" contains a txt-file for each of our test instances. These are spread over 5 folders, each corresponding to a different data set: "Dataset 1", "Dataset 2", "Dataset 3" and "Dataset 4" correspond to datasets D1, D2, D3 and D4 as introduced by Mehrani et al. (2022) (see https://github.com/saharnazmehrani/BPPMCF-IJOC), and "Triplets" corresponds to D5*. Instances D1*, D2*, D3* and D4* (introduced by Barkel et al. (2025) are obtained by setting the number of bins to the minimum number of required bins (see main.cpp), where the minimum number of required bins per instance is saved in the file "minNumberOfBinsPerInstance.txt".
 
